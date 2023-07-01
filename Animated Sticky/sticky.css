@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*Do not extend the width and height*/
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins','sans-serif';
+    background:rgb(244, 237, 228);
+    padding: 30px;
+    /*background-image: linear-gradient(to left,rgba(52,152,219,1.0)60%,rgba(236,240,241,1.0));
+    background: rgb(121,88,9);
+    background: linear-gradient(to left, rgba(121,88,9,1) 35%, rgba(32,132,205,1) 59%, rgba(255,0,185,1) 78%);*/
+}
+ul li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul li a{
+    text-decoration: none;
+    color:#130f40;
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: #badc58;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: 10px;
+    transform: rotate(-12deg);
+    transition: transform 0.1s linear;
+    border-radius: 5px;
+}
+h2{
+    font-size: 16px;
+    color: #e33d94;
+}
+p{
+    font-size: 15px;
+}
+ul li:nth-child(1) a{
+    position: relative;
+    top: 15px;
+    left: 5px;
+    transform: rotate(8deg);
+    background-color: #f3e16b;
+}
+ul li:nth-child(2) a{
+    position: relative;
+    top: 25px;
+    left: 15px;
+    transform: rotate(-18deg);
+    background-color: #d014d7cd;
+}
+ul li:nth-child(3) a{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    transform: rotate(+18deg);
+    background-color: #7dfee3;
+}
+    
+ul li:nth-child(4) a{
+    position: relative;
+    top:10px;
+    left: 25px;
+    transform: rotate(-15deg);
+    background-color: #90c695;
+}
+ul li:nth-child(5) a{
+    position: relative;
+    top:10px;
+    left: 25px;
+    transform: rotate(+15deg);
+    background-color: rgb(190, 144, 212);
+}
+ul li:nth-child(6) a{
+    position: relative;
+    top:10px;
+    left: 25px;
+    transform: rotate(-19deg);
+    background-color: rgb(249, 191, 59);
+}
+ul li:nth-child(7) a{
+    position: relative;
+    top:10px;
+    left: 25px;
+    transform: rotate(+19deg);
+    background-color:rgb(162, 222, 208);
+}
+ul li:nth-child(8) a{
+    position: relative;
+    top:10px;
+    left: 25px;
+    transform: rotate(-160deg);
+    background-color:rgb(166, 145, 92);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+ul li a:hover,ul li a:focus{
+    transform: scale(1.25);
+    z-index: 99;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+a span{
+    width: 20px;
+    height: 20px;
+    /*background-color:greenyellow;*/
+    /*text-align: center;*/
+    line-height: 20px;
+    display: block;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    /*border-radius: 50%;*/
+    background-image: url("\Images\\close.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}    
+
+
+/*
+to top
+to bottom
+to right
+to left
+
+Degree(0-360)
+45deg
+30deg
+
+Percentage
+red 60%,blue 40%
+*/
+
